@@ -1,0 +1,147 @@
+
+html {
+    font-family: "Archivo Narrow", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: url("https://d.newsweek.com/en/full/1403370/sea-turtle-stock-getty.jpg") no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 150px 100px; 
+    position: relative;
+}
+header h1 {
+    font-size: 60pt;
+    margin: 0 0 16px 0;
+    line-height: 1;
+    color: white;
+}
+header h2 {
+    font-size: 30px;
+    margin: 0;
+    color: white;
+    line-height: 1;
+}
+p {
+    font-size: 18px;
+}
+section {
+    padding-top: 48px;
+}
+section#intro {
+    background-color: rgba(0, 0, 225, 0.3);
+    padding: 40px;
+    text-align: center;
+}
+section .column {
+    width: 960px;
+    margin: auto;
+}
+.photo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.photo-item p {
+    margin-top: 10px;
+}
+section.content.dark {
+    background-color: #001f3f; 
+    padding: 50px;
+  }
+  section.content.dark h2 {
+    text-align: center; 
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .text-box {
+    position: relative;
+    background-color: transparent; 
+    padding: 40px;
+    color: #fff;        
+    text-align: left;    
+    max-width: 800px; 
+    margin: 0 auto;      
+  }
+  .text-box img {
+    float: right;
+    margin: 0 0 20px 20px; 
+    max-width: 350px;
+    height: auto;
+    color: white;
+  }
+  .photo-grid {
+    padding: 40px 300px;
+    text-align: center;
+    background-color: lightblue;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .photo-item {
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    padding: 5px;
+    border-radius: 0px;
+  }
+  .photo-item .text h3 {
+    margin: 0 0 8px;
+    font-size: 1.25em;
+  }
+  .photo-item img {
+    width: 150px;  
+    height: auto;
+    margin-right: 20px;  
+  }
+  
+  .photo-item .text {
+    max-width: 200px;
+    color:white;
+    text-align: left;
+  }
+  .code-box {
+    background-color: darkblue; 
+    color: white;               
+    padding: 200px;             
+    position: relative;         
+    z-index: 10;            
+}
+.code-box {
+    background-color: darkblue;
+    color: white;            
+    padding: 100px;          
+    text-align: center;        
+    display: flex;            
+    justify-content: center;    
+    align-items: center;       
+    height: 200px;         
+}
+.code-content {
+    max-width: 800px;         
+    width: 400px;   
+}
+.footer {
+    background-color:lightblue;
+    color: black;               
+    padding: 50px 0;         
+    font-size: 16px;           
+}
