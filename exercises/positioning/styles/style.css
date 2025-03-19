@@ -1,0 +1,52 @@
+
+.static-example .positioned-element {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
+.static-example .positioned-element {
+    left: 100px; 
+}
+.relative-example .positioned-element {
+    width: 50px;
+    height: 50px;
+    background-color: lightblue; 
+    position: relative; 
+    left: 100px; 
+    top: 50px;
+    z-index: -1;
+}
+.absolute-example .positioned-element {
+    width: 50px;
+    height: 50px;
+    background-color: red; 
+    position: absolute; 
+}
+.absolute-example .positioned-element {
+    top: 0;
+}
+.absolute-example {
+    position: relative; 
+}
+.absolute-example .positioned-element {
+    right: 0; 
+}
+.fixed-example .positioned-element {
+    width: 100%; 
+    height: 50px; 
+    background-color: purple; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 9999; 
+}
+.sticky-example .positioned-element {
+    width: 50px;
+    height: 50px;
+    background-color: orange; 
+    position: sticky; 
+    top: 50px; 
+}
+
+
+
