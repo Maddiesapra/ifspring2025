@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buttons — Maddie Sapra</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:700" rel="stylesheet" type="text/css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PV1GOfQNHSoD2xbE+QkPxCAF1NEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <style>
+    body {
+      color: #333;
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    main {
+      margin: 40px;
+    }
+
+    h1 {
+      font-size: 30px;
+      margin-bottom: 40px;
+    }
+
+    .button_container {
+      border: 1px solid #ddd;
+      margin: 0 10px 10px 0;
+      padding: 20px;
+      width: 300px;
+      height: 300px;
+      float: left;
+      overflow: hidden;
+      box-sizing: border-box;
+      text-align: center;
+      display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+
+    a#btn_spotify {
+      display: inline-block;
+      height: 50px;
+      box-sizing: border-box;
+      border-radius: 25px;
+      margin: auto;
+      margin-top: 100px;
+      padding: 10px 40px 0 40px;
+      background-color: #2ebd59;
+      border: 2px solid #2ebd59;
+      color: #fff;
+      font-size: 20px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      text-decoration: none;
+      transition: all .5s;
+    }
+
+    a#btn_spotify:hover {
+      background-color: #fff;
+      border: 2px solid #000;
+      color: #000;
+    }
+
+    a#btn_amazon {
+      display: block;
+      width: 100px;
+      height: 100px;
+      box-sizing: border-box;
+      border-radius: 50px;
+      margin: auto;
+      margin-top: 75px;
+      padding-top: 8px;
+      background-color: #232f3e;
+      color: #fff;
+      text-align: center;
+      font-size: 60px;
+      transition: all .2s;
+    }
+
+    a#btn_amazon:hover {
+      background-color: #fc9a18;
+    }
+
+    a#btn_twitter {
+      display: inline-block;
+      height: 40px;
+      box-sizing: border-box;
+      border-radius: 4px;
+      margin: auto;
+      margin-top: 105px;
+      padding: 10px 30px 0 30px;
+      background-color: #56cdf1;
+      color: #fff;
+      font-size: 18px;
+      font-family: 'Arial', sans-serif;
+      font-weight: bold;
+      text-decoration: none;
+      transition: all .2s;
+    }
+
+    a#btn_twitter:hover {
+      background: linear-gradient(135deg, rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%);
+      color: #000;
+    }
+
+    a#btn_indiegogo {
+      display: inline-block;
+      position: relative;
+      margin: auto;
+      margin-top: 100px;
+      padding: 8px 16px;
+      background-color: #fff;
+      color: #eb1478;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: -2px;
+      transition: all .25s;
+    }
+
+    a#btn_indiegogo:before {
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      z-index: 1;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      background-color: #eb1478;
+      transition: all .5s;
+    }
+
+    a#btn_indiegogo:hover {
+      color: #fff;
+    }
+
+    a#btn_indiegogo:hover:before {
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    a#btn_indiegogo span {
+      position: relative;
+      z-index: 10;
+    }
+    a#btn_cartoon {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-family: 'Arial Black', Gadget, sans-serif;
+  font-size: 40px;
+  transition: all 0.3s ease;
+}
+
+a#btn_cartoon .block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  transition: all 0.3s ease;
+}
+
+a#btn_cartoon .c {
+  background-color: #fff;
+  color: #000;
+}
+
+a#btn_cartoon .n {
+  background-color: #000;
+  color: #fff;
+}
+
+a#btn_cartoon:hover .c {
+  background-color: #000;
+  color: #fff;
+}
+
+a#btn_cartoon:hover .n {
+  background-color: #fff;
+  color: #000;
+}
+
+a#btn_coke {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border-radius: 50%;
+  background-color: #ff0000;
+  color: #fff;
+  font-family: 'Georgia', serif;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+a#btn_coke:hover {
+  background-color: #fff;
+  color: #ff0000;
+  border: 2px solid #ff0000;
+  
+}
+a#btn_facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border-radius: 20px; 
+  background-color: #1877F2;
+  color: #fff;
+  font-size: 50px;
+  font-family: 'Arial Black', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+a#btn_facebook:hover {
+  background-color: #fff;
+  color: #1877F2;
+  border: 2px solid #1877F2;
+}
+a#btn_garden {
+  position: relative;
+  display: inline-block;
+  padding: 12px 20px;
+  color: #2e8b57;
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: color 0.3s ease;
+  z-index: 1;
+}
+
+a#btn_garden::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2e8b57;
+  z-index: -1;
+  transition: transform 0.3s ease;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+a#btn_garden:hover::before {
+  transform: scaleX(1);
+}
+
+a#btn_garden:hover {
+  color: white;
+}
+a#btn_lyft {
+  display: inline-block;
+  color: #FF00BF; 
+  font-family: 'Arial Black', Gadget, sans-serif;
+  font-size: 45px;
+  text-decoration: none;
+  transition: transform 0.3s ease, font-style 0.3s ease;
+}
+
+a#btn_lyft:hover {
+  font-style: italic;
+  transform: skewX(-10deg); 
+}
+
+
+
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Button Styling — Maddie Sapra</h1>
+    <div class="button_container">
+      <a href="http://www.spotify.com" target="_blank" id="btn_spotify">Spotify</a>
+    </div>
+    <div class="button_container">
+      <a href="http://www.amazon.com" target="_blank" id="btn_amazon">A</a>
+    </div>
+    <div class="button_container">
+      <a href="http://www.twitter.com" target="_blank" id="btn_twitter">Twitter</a>
+    </div>
+    <div class="button_container">
+      <a href="http://www.indiegogo.com" target="_blank" id="btn_indiegogo"><span>INDIEGOGO</span></a>
+    </div>
+    <div class="button_container">
+        <a href="http://www.cartoonnetwork.com/" target="_blank" id="btn_cartoon"><span class="block c">C</span><span class="block n">N</span>
+        </a>
+      </div>
+      <div class="button_container">
+        <a href="http://www.coca-cola.com/" target="_blank" id="btn_coke">Coke</a>
+      </div>
+      <div class="button_container">
+        <a href="https://www.facebook.com/" target="_blank" id="btn_facebook">f</a>
+      </div>
+      <div class="button_container">
+        <a href="http://www.missouribotanicalgarden.org/" target="_blank" id="btn_garden">Missouri Botanical Garden </a>
+      </div>
+      <div class="button_container">
+        <a href="https://www.lyft.com" target="_blank" id="btn_lyft">lyft</a>
+      </div>
+      
+      
+      
+            
+      
+  </main>
+</body>
+</html>
