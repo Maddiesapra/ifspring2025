@@ -1,0 +1,187 @@
+body {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+.heading-img {
+    position: sticky;
+    top: 0;
+    z-index: 1000;           
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.sticky-corner-box-1 {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 25%;
+    background-color: #c49c72;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    z-index: 1100;
+}
+
+.bear-container-1 {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.bear-img {
+    margin-top: -50px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.about-bears{
+    position: absolute;
+    top: 20%;    
+     text-align: center;
+     margin-top: -650px;
+    left: 10%; 
+    background-color: rgba(193, 154, 107, 0.85); 
+    color: #fff;
+    padding: 16px 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    z-index: 10;
+}
+.sticky-corner-box-2 {
+    position: sticky;
+    margin-left: 350px;
+    top: 0;
+    left: 0;
+    width: 25%;
+    background-color: #c49c72;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    z-index: 1100;
+}
+
+.bear-container-2 {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.bear-img-2 {
+    margin-top: -50px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hibernation{
+    position: absolute;
+    top: 20%;    
+    margin-left: 800px;
+    margin-top: -500px;
+     text-align: center;
+    left: 10%; 
+    background-color: rgba(193, 154, 107, 0.85); 
+    color: #fff;
+    padding: 16px 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    z-index: 10;
+}
+
+.sticky-corner-box-3 {
+    position: sticky;
+    margin-left: 700px;
+    top: 0;
+    left: 0;
+    width: 25%;
+    background-color: #c49c72;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    z-index: 1100;
+}
+
+.bear-container-3 {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.bear-img-3 {
+    margin-top: -50px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.Species{
+    position: absolute;
+    top: 20%;    
+    margin-left: 5px;
+    margin-top: -350px;
+     text-align: center;
+    left: 10%; 
+    background-color: rgba(193, 154, 107, 0.85); 
+    color: #fff;
+    padding: 16px 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    z-index: 10;
+}
+
+.sticky-corner-box-4 {
+    position: sticky;
+    margin-left: 1050px;
+    top: 0;
+    left: 0;
+    width: 25%;
+    background-color: #c49c72;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    z-index: 1100;
+}
+
+.bear-container-4 {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.bear-img-4 {
+    margin-top: -50px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.culture{
+    position: absolute;
+    top: 20%;    
+    margin-left: 900px;
+    margin-top: -100px;
+     text-align: center;
+    left: 10%; 
+    background-color: rgba(193, 154, 107, 0.85); 
+    color: #fff;
+    padding: 16px 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    z-index: 10;
+}
