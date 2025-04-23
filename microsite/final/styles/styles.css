@@ -336,3 +336,15 @@ body {
     margin: 1rem auto;
   }
 }
+
+.site-footer {
+  background-color: #c49c72;   
+  color: white;                 
+  text-align: center;
+  font-size: 1 rem;        
+  padding: 8px 0;       
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
