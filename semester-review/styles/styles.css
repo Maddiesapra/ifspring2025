@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  background-color: #FFD1DC;
+  color: #000000;    
+}
+
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+/* headers too */
+header {
+  text-align: center;
+  padding: 60px 30px 40px;
+}
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #000000;    
+}
+header h2 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #000000;     
+}
+
+section.flex {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 30px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  flex-grow: 1;
+}
+
+.portfolio_item,
+.portfolio_item_2 {
+  background: rgba(255,255,255,0.6);
+  border-radius: 12px;
+  padding: 20px;
+  width: calc(33% - 20px);
+  max-height: 400px;    
+  text-align: center;    
+}
+
+.portfolio_item img,
+.portfolio_item_2 img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.portfolio_item h3,
+.portfolio_item_2 h3 {
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 0 0 8px;
+  font-weight: 400;
+}
+
+.portfolio_item p,
+.portfolio_item_2 p {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  margin: 0.5em 0;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: rgba(255,255,255,0.6);
+  font-size: 0.9rem;  
+}
